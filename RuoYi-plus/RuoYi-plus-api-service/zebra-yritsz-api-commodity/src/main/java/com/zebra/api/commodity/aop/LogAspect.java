@@ -6,10 +6,8 @@
 
 package com.zebra.api.commodity.aop;
 
-import java.lang.reflect.Method;
-
-import javax.servlet.http.HttpServletRequest;
-
+import com.zebra.api.commons.util.RequestUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
@@ -21,9 +19,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import com.zebra.api.commons.util.RequestUtil;
-
-import lombok.extern.slf4j.Slf4j;
+import javax.servlet.http.HttpServletRequest;
+import java.lang.reflect.Method;
 
 @Aspect
 @Component

@@ -3,20 +3,6 @@
  */
 package com.zebra.api.bussiness.interceptor;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Map;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.slf4j.MDC;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.util.StringUtils;
-import org.springframework.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.ModelAndView;
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.zebra.api.bussiness.enums.LogDescribeEnum;
@@ -30,8 +16,19 @@ import com.zebra.api.commons.util.SignConstants.SignType;
 import com.zebra.api.commons.util.SignUtil;
 import com.zebra.bussiness.domain.ApiSecurity;
 import com.zebra.common.redis.realize.base.RealizeBase;
-
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.MDC;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.util.StringUtils;
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Map;
 
 @Slf4j
 public class MyInterceptor implements HandlerInterceptor {

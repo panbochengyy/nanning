@@ -1,11 +1,10 @@
 package com.zebra.api.commons.config;
 
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RestController;
-
-import lombok.Data;
 
 @RefreshScope
 @RestController

@@ -1,11 +1,10 @@
 package com.zebra.api.bussiness.feign.client;
 
+import com.zebra.api.bussiness.feign.client.impl.OrderFienClientImpl;
+import com.zebra.api.commons.bean.Json;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.zebra.api.bussiness.feign.client.impl.OrderFienClientImpl;
-import com.zebra.api.commons.bean.Json;
 
 /**
  * Title:订单模块<br/>

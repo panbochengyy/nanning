@@ -1,15 +1,14 @@
 package com.zebra.api.commodity.service.impl;
 
-import java.util.Date;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.zebra.api.commodity.service.CommodityService;
 import com.zebra.api.commons.bean.Json;
 import com.zebra.api.commons.enums.ResultEnum;
 import com.zebra.bussiness.domain.CommodityInfo;
 import com.zebra.bussiness.mapper.CommodityInfoMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Date;
 
 /**
  * Title: 产品管理实现<br/>

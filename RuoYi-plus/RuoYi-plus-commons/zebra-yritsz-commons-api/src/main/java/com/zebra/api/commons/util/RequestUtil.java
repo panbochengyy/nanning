@@ -1,10 +1,9 @@
 package com.zebra.api.commons.util;
 
-import java.io.BufferedReader;
+import lombok.extern.slf4j.Slf4j;
 
 import javax.servlet.http.HttpServletRequest;
-
-import lombok.extern.slf4j.Slf4j;
+import java.io.BufferedReader;
 
 /**
  * IP工具类

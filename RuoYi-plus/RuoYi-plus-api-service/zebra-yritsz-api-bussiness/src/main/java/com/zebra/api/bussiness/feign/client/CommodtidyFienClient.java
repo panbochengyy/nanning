@@ -1,13 +1,12 @@
 package com.zebra.api.bussiness.feign.client;
 
+import com.zebra.api.bussiness.feign.client.impl.CommodtidyFienClientImpl;
+import com.zebra.api.commons.bean.Json;
+import com.zebra.api.commons.bean.RequestTestBean;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.zebra.api.bussiness.feign.client.impl.CommodtidyFienClientImpl;
-import com.zebra.api.commons.bean.Json;
-import com.zebra.api.commons.bean.RequestTestBean;
 
 /**
  * Title: 产品模块<br/>

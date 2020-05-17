@@ -1,12 +1,11 @@
 package com.zebra.api.commons.util;
 
-import java.security.Signature;
-import java.security.interfaces.RSAPrivateKey;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
-
-import org.apache.commons.codec.digest.DigestUtils;
+import java.security.Signature;
+import java.security.interfaces.RSAPrivateKey;
 
 /**
  * 加密工具类

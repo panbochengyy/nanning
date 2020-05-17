@@ -1,12 +1,5 @@
 package api_test;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
-
-import org.springframework.util.MimeTypeUtils;
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.zebra.api.commons.util.DateUtil;
@@ -14,8 +7,13 @@ import com.zebra.api.commons.util.HttpUtil;
 import com.zebra.api.commons.util.SignConstants;
 import com.zebra.api.commons.util.SignConstants.SignType;
 import com.zebra.api.commons.util.SignUtil;
-
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.util.MimeTypeUtils;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 @Slf4j
 public class NoticeApiTest extends BaseTest {

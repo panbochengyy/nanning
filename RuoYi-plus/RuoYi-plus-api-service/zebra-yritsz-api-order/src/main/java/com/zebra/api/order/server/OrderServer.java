@@ -1,15 +1,14 @@
 package com.zebra.api.order.server;
 
+import com.zebra.api.commons.bean.Json;
+import com.zebra.api.order.aop.LogAnnotation;
+import com.zebra.api.order.aop.LogAnnotation.OPERTYPE;
+import com.zebra.api.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.zebra.api.commons.bean.Json;
-import com.zebra.api.order.aop.LogAnnotation;
-import com.zebra.api.order.aop.LogAnnotation.OPERTYPE;
-import com.zebra.api.order.service.OrderService;
 
 /**
  *

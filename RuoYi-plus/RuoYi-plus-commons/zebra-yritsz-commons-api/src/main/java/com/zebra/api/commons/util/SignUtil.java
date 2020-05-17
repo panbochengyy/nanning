@@ -1,15 +1,13 @@
 package com.zebra.api.commons.util;
 
+import com.zebra.api.commons.util.SignConstants.SignType;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.util.StringUtils;
+
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Map;
 import java.util.Set;
-
-import org.springframework.util.StringUtils;
-
-import com.zebra.api.commons.util.SignConstants.SignType;
-
-import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class SignUtil {

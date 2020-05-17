@@ -1,7 +1,6 @@
 package com.zebra.api.commons.bean;
 
 import com.zebra.api.commons.enums.ResultEnum;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
